@@ -23,14 +23,14 @@ import com.charlatano.settings.*
  *
  * Usually you want to match this up with your monitor's refresh rate.
  */
-OPENGL_FPS = 60
+OPENGL_FPS = 75
 
 /**
  * Whether or not to use V-sync (vertical sync) for the OpenGL overlay.
  *
  * Usually you want to use V-sync for the overlay if you use V-sync in game.
  */
-OPENGL_VSYNC = false
+OPENGL_VSYNC = true
 
 /**
  * The amount of MSAA antialiasing samples for the OpenGL overlay.

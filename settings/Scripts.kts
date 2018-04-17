@@ -26,7 +26,6 @@ import com.charlatano.settings.*
  * You need to unbind the bunnyhop key, and bind mwheelup and mwheeldown to jump.
  * To do this, type the following commands into the in-game developer console:
  * unbind "space"
- * bind "mwheelup" "+jump"
  * bind "mwheeldown" "+jump"
  */
 ENABLE_BUNNY_HOP = false
@@ -39,21 +38,21 @@ ENABLE_RCS = true
 /**
  * Enables the extra sensory perception (ESP) script.
  */
-ENABLE_ESP = true
+ENABLE_ESP = false
 
 /**
  * Enables the flat aim script.
  *
  * This script uses traditional flat linear-regression smoothing.
  */
-ENABLE_FLAT_AIM = true
+ENABLE_FLAT_AIM = false
 
 /**
  * Enables the path aim script.
  *
  * This script uses an advanced path generation smoothing.
  */
-ENABLE_PATH_AIM = false
+ENABLE_PATH_AIM = true
 
 /**
  * Enables the bone trigger bot script.
